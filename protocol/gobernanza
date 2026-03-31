@@ -1,0 +1,334 @@
+# Satoshilemu – Gobernanza
+Versión: 0.1
+Estado: Draft
+
+## 1. Propósito
+
+Este documento define cómo se toman decisiones dentro del protocolo Satoshilemu, quién tiene autoridad en cada etapa y cómo evoluciona la gobernanza en el tiempo.
+
+Su objetivo es:
+
+- asegurar coherencia con los principios del protocolo
+- evitar concentración excesiva de poder
+- permitir operación eficiente en etapas tempranas
+- facilitar transición hacia modelos más distribuidos
+
+---
+
+## 2. Principios de gobernanza
+
+La gobernanza de Satoshilemu se rige por los siguientes principios:
+
+- prioridad a la acción sobre la burocracia
+- claridad en roles y responsabilidades
+- progresiva descentralización
+- protección del propósito del protocolo
+- transparencia razonable
+- responsabilidad explícita por decisiones
+- resistencia a captura por intereses externos
+
+---
+
+## 3. Etapas de gobernanza
+
+### 3.1 Etapa 1 – Coordinación centralizada (actual)
+
+El protocolo es operado por un equipo coordinador reducido.
+
+Características:
+
+- decisiones rápidas
+- alta flexibilidad
+- dependencia de confianza en el equipo
+- baja complejidad organizacional
+
+### 3.2 Etapa 2 – Coordinación distribuida
+
+Se incorporan múltiples responsables con roles definidos.
+
+Características:
+
+- separación de funciones
+- validaciones compartidas
+- mayor resiliencia
+- menor dependencia de individuos
+
+### 3.3 Etapa 3 – Gobernanza comunitaria (objetivo)
+
+La comunidad participa en decisiones relevantes mediante mecanismos estructurados.
+
+Características:
+
+- participación ampliada
+- procesos definidos
+- mayor legitimidad social
+- mayor complejidad operativa
+
+---
+
+## 4. Roles del sistema
+
+### 4.1 Equipo coordinador
+
+Grupo responsable de la operación del protocolo en su fase actual.
+
+Responsabilidades:
+
+- ejecutar distribuciones
+- definir criterios operativos
+- administrar infraestructura
+- incorporar participantes y comercios
+- gestionar fondos
+- resolver incidencias
+
+### 4.2 Responsables operativos
+
+Personas con acceso a funciones específicas del sistema.
+
+Ejemplos:
+
+- ejecución de pagos
+- administración de cuentas
+- soporte a participantes
+
+### 4.3 Responsables de validación
+
+Personas encargadas de aprobar decisiones críticas.
+
+Ejemplos:
+
+- validación de distribuciones
+- aprobación de cambios relevantes
+- autorización de operaciones sensibles
+
+### 4.4 Comunidad
+
+Participantes, comercios y actores del ecosistema.
+
+Rol:
+
+- retroalimentación
+- participación en actividades
+- eventual participación en gobernanza futura
+
+---
+
+## 5. Tipos de decisiones
+
+### 5.1 Decisiones operativas
+
+Ejemplos:
+
+- ejecución de pagos
+- soporte técnico
+- incorporación de usuarios
+- ajustes menores de procesos
+
+Responsable: equipo coordinador
+
+---
+
+### 5.2 Decisiones tácticas
+
+Ejemplos:
+
+- cambios en criterios de elegibilidad
+- ajustes en frecuencia de distribución
+- incorporación de nuevos programas
+- cambios en herramientas utilizadas
+
+Responsable: equipo coordinador + validación adicional (cuando aplique)
+
+---
+
+### 5.3 Decisiones estratégicas
+
+Ejemplos:
+
+- cambios en el modelo de distribución
+- expansión a nuevas ciudades
+- cambios en principios fundamentales
+- alianzas de alto impacto
+
+Responsable: equipo coordinador ampliado o mecanismos de gobernanza futura
+
+---
+
+## 6. Aprobación de decisiones críticas
+
+### 6.1 Definición
+
+Se consideran decisiones críticas aquellas que:
+
+- implican movimiento relevante de fondos
+- afectan la estructura del sistema
+- modifican reglas clave del protocolo
+- alteran permisos o accesos sensibles
+
+### 6.2 Regla base (fase actual)
+
+Se recomienda que toda decisión crítica cuente con:
+
+- al menos un ejecutor
+- al menos un validador distinto
+
+### 6.3 Evolución esperada
+
+El sistema deberá avanzar hacia:
+
+- múltiples validadores
+- esquemas tipo "n de m"
+- separación clara entre ejecución y aprobación
+
+---
+
+## 7. Separación de funciones
+
+Para reducir riesgos, se recomienda separar:
+
+- quien propone una acción
+- quien la aprueba
+- quien la ejecuta
+- quien la audita
+
+Esta separación podrá ser parcial en etapas iniciales, pero deberá fortalecerse con el tiempo.
+
+---
+
+## 8. Incorporación de nuevos roles
+
+El sistema podrá incorporar nuevos roles a medida que crezca, tales como:
+
+- responsables de comunidad
+- responsables de educación
+- responsables técnicos
+- responsables de expansión territorial
+
+La asignación de roles deberá considerar:
+
+- compromiso demostrado
+- alineación con principios
+- capacidad operativa
+
+---
+
+## 9. Mecanismos de coordinación
+
+El equipo coordinador podrá utilizar:
+
+- reuniones periódicas
+- canales digitales (ej: mensajería, repositorios)
+- documentación compartida
+- registros de decisiones
+
+---
+
+## 10. Transparencia de decisiones
+
+### 10.1 Registro interno
+
+Las decisiones relevantes deberán:
+
+- quedar documentadas
+- incluir responsables
+- incluir fecha
+- incluir justificación
+
+### 10.2 Comunicación externa
+
+La comunidad podrá ser informada de:
+
+- cambios relevantes
+- nuevas etapas del programa
+- métricas generales
+- aprendizajes
+
+---
+
+## 11. Resolución de conflictos
+
+En caso de conflicto:
+
+1. intento de resolución directa entre partes
+2. mediación por el equipo coordinador
+3. decisión final por responsables definidos
+
+En etapas futuras podrán incorporarse mecanismos más formales.
+
+---
+
+## 12. Límites de gobernanza
+
+No podrán aprobarse decisiones que:
+
+- contradigan los principios fundamentales del protocolo
+- comprometan la seguridad de fondos
+- introduzcan dependencias contrarias a la soberanía del sistema
+- vulneren la confianza de la comunidad de manera significativa
+
+---
+
+## 13. Prevención de captura
+
+Se consideran riesgos de captura:
+
+- influencia indebida de financiamiento
+- concentración de poder en pocas personas
+- decisiones opacas
+- dependencia de actores externos
+
+### 13.1 Medidas preventivas
+
+- diversificación de responsables
+- registro de decisiones
+- transparencia razonable
+- límites explícitos de autoridad
+- revisión periódica de roles
+
+---
+
+## 14. Evolución hacia gobernanza comunitaria
+
+El protocolo podrá incorporar gradualmente:
+
+- consultas comunitarias
+- votaciones no vinculantes
+- votaciones vinculantes
+- delegación de decisiones
+- mecanismos híbridos
+
+La implementación deberá equilibrar:
+
+- participación
+- eficiencia
+- seguridad
+
+---
+
+## 15. Relación con el flujo de fondos
+
+Las reglas definidas en `flujo-fondos.md` deberán respetar los principios y estructuras de gobernanza definidos en este documento.
+
+---
+
+## 16. Relación con la especificación general
+
+Este documento complementa `specs.md` y no lo reemplaza.
+
+---
+
+## 17. Evolución del documento
+
+Este documento podrá ser actualizado mediante nuevas versiones.
+
+Cada actualización deberá:
+
+- indicar cambios realizados
+- justificar modificaciones
+- mantener coherencia con principios base
+
+---
+
+## 18. Licencia
+
+Este documento forma parte del protocolo Satoshilemu y se distribuye bajo licencia GNU GPL v3, salvo indicación explícita en componentes específicos.
