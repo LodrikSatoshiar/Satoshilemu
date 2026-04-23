@@ -1,314 +1,237 @@
-# Satoshilemu Protocol Specification
-Versión: 0.1
+Satoshilemu Protocol Specification
+
+Versión: 0.2
 Estado: Draft
 
-## 1. Propósito
+1. Propósito
 
 Satoshilemu es un protocolo territorial de adopción de Bitcoin orientado a la creación de una economía circular local, voluntaria y replicable.
 
+Se concibe como un experimento comunitario —un laboratorio vivo— donde personas, comercios y organizaciones exploran nuevas formas de cooperación económica utilizando Bitcoin como infraestructura monetaria.
+
 Su finalidad es acelerar la transición desde relaciones monetarias dependientes de intermediarios hacia dinámicas comunitarias de mayor soberanía, aprendizaje práctico y coordinación económica basada en Bitcoin.
 
-## 2. Definiciones
+2. Definiciones
+2.1 Comunidad
 
-### 2.1 Comunidad
 Conjunto de personas, comercios y organizaciones que participan activamente en la economía circular local de Satoshilemu.
 
-### 2.2 Participante
-Persona natural aceptada dentro del sistema y habilitada para recibir incentivos, participar en actividades o interactuar con la infraestructura del protocolo.
+2.2 Participante
 
-### 2.3 Comercio adherido
-Negocio, emprendimiento o prestador de servicios que acepta pagos en Bitcoin y cumple las condiciones mínimas definidas por la comunidad.
+Persona natural aceptada dentro del sistema y habilitada para interactuar con la infraestructura del protocolo.
 
-### 2.4 Renta básica local
-Distribución periódica de sats a participantes previamente definidos, con el propósito de incentivar circulación económica local, aprendizaje práctico y adopción real de Bitcoin.
+2.3 Comercio adherido
 
-### 2.5 Circulación local
-Uso de sats dentro de la red de participantes y comercios adheridos de una zona geográfica determinada, priorizando intercambios internos por sobre salidas inmediatas del circuito.
+Negocio o prestador de servicios que acepta pagos en Bitcoin dentro del circuito local.
 
-### 2.6 Infraestructura
-Conjunto de herramientas técnicas utilizadas por el protocolo, incluyendo billeteras, nodos, procesadores de pago, paneles administrativos y sistemas de registro.
+2.4 Renta básica local
 
-## 3. Principios del protocolo
+Distribución periódica de sats a participantes definidos, con el propósito de incentivar circulación económica local y adopción práctica.
+
+2.5 Circulación local
+
+Movimiento recurrente de sats entre participantes y comercios dentro del territorio.
+
+2.6 Infraestructura
+
+Conjunto de herramientas técnicas utilizadas por el protocolo (billeteras, nodos, procesadores de pago, etc.).
+
+3. Principios del protocolo
 
 Satoshilemu se rige por los siguientes principios:
 
-- Bitcoin como base monetaria del sistema
-- Participación voluntaria
-- Soberanía individual como horizonte
-- Minimización de confianza en terceros
-- Transparencia operativa razonable
-- Replicabilidad en otras comunidades
-- Enfoque territorial y humano antes que puramente tecnológico
-- Prioridad a la adopción real por sobre métricas superficiales
-
-## 4. Objetivos operativos
+Bitcoin como base monetaria del sistema
+Participación voluntaria
+Soberanía individual como horizonte
+Minimización de confianza en terceros
+Transparencia operativa razonable
+Replicabilidad en otras comunidades
+Enfoque territorial y humano antes que puramente tecnológico
+Adopción de primera línea como motor principal
+Naturaleza experimental y evolutiva del sistema
+4. Objetivos operativos
 
 El protocolo busca:
 
-1. Incrementar la cantidad de personas que usan Bitcoin en su vida cotidiana
-2. Incrementar la cantidad de comercios que aceptan Bitcoin en una comunidad local
-3. Incentivar que los sats circulen entre participantes y comercios adheridos
-4. Fortalecer redes locales de confianza y cooperación
-5. Generar un modelo replicable para otras ciudades o territorios
+Incrementar el uso cotidiano de Bitcoin en la comunidad
+Incrementar la cantidad de comercios que aceptan Bitcoin
+Incentivar la circulación local de sats
+Fortalecer redes económicas comunitarias
+Generar aprendizajes replicables
+5. Alcance
+5.1 Alcance territorial inicial
 
-## 5. Alcance
+Pichilemu, Chile
 
-### 5.1 Alcance territorial inicial
-La primera implementación del protocolo corresponde a la comuna de Pichilemu, Chile.
+5.2 Alcance funcional inicial
+incorporación de participantes
+incorporación de comercios
+distribución de incentivos en Bitcoin
+uso de Lightning Network
+educación comunitaria
+seguimiento básico
+5.3 Fuera de alcance
+descentralización completa inmediata
+anonimato total
+sostenibilidad financiera garantizada
+automatización total
+6. Actores del sistema
+6.1 Equipo coordinador
 
-### 5.2 Alcance funcional inicial
-La versión inicial del protocolo contempla:
+Responsable de la operación del protocolo en su fase actual.
 
-- incorporación de participantes
-- incorporación de comercios
-- distribución periódica de incentivos en Bitcoin
-- uso de Lightning Network para pagos cotidianos
-- actividades de educación y acompañamiento
-- mecanismos básicos de seguimiento y evaluación
+Funciones:
 
-### 5.3 Fuera de alcance en esta versión
-Esta versión no garantiza:
+definir criterios operativos
+ejecutar distribuciones
+mantener infraestructura
+acompañar adopción
+gestionar fondos
+6.2 Participantes
 
-- automatización total del sistema
-- descentralización completa de la custodia
-- anonimato absoluto
-- sostenibilidad financiera indefinida sin fondeo externo
-- cobertura universal de toda la población local
+Usuarios del sistema que interactúan con Bitcoin dentro del circuito local.
 
-## 6. Actores del sistema
+6.3 Comercios adheridos
 
-### 6.1 Equipo coordinador
-Grupo responsable de operar, mantener y mejorar el protocolo en su fase actual.
+Actores económicos que aceptan pagos en Bitcoin.
 
-Responsabilidades:
-- definir criterios de ingreso
-- coordinar distribuciones
-- mantener infraestructura mínima
-- acompañar a participantes y comercios
-- levantar métricas y aprendizajes
-- administrar el fondo operativo
+6.4 Donantes o financiadores
 
-### 6.2 Participantes beneficiarios
-Personas seleccionadas para recibir incentivos periódicos en sats y utilizar Bitcoin dentro de la economía circular local.
+Aportan recursos para sostener el sistema sin comprometer sus principios.
 
-Responsabilidades:
-- mantener una billetera funcional
-- aprender el uso básico de Bitcoin
-- utilizar los sats dentro del circuito en la medida de lo posible
-- respetar reglas mínimas de convivencia y participación
+7. Unidad monetaria y red
+7.1 Unidad
 
-### 6.3 Comercios adheridos
-Actores económicos que aceptan pagos en Bitcoin y colaboran con el circuito local.
+Bitcoin (preferentemente en satoshis)
 
-Responsabilidades:
-- mantener habilitado un medio de cobro funcional
-- aceptar pagos en Bitcoin durante horarios razonables de atención
-- recibir capacitación mínima
-- informar incidencias relevantes
+7.2 Red principal
 
-### 6.4 Donantes o financiadores
-Personas u organizaciones que aportan fondos para sostener el sistema.
+Lightning Network
 
-Responsabilidades:
-- respetar la autonomía operativa del protocolo
-- no condicionar el uso del sistema en contradicción con sus principios básicos
+7.3 Red secundaria
 
-## 7. Unidad monetaria y red de pagos
+Bitcoin on-chain
 
-### 7.1 Unidad monetaria
-La unidad base del sistema es Bitcoin, expresado preferentemente en satoshis.
+8. Mecanismo de distribución
+8.1 Naturaleza
 
-### 7.2 Red preferente
-La red preferente para pagos cotidianos es Lightning Network.
+Distribución periódica de sats a participantes.
 
-### 7.3 Red secundaria
-La capa base de Bitcoin podrá utilizarse para resguardo, consolidación u otras operaciones no cotidianas.
+8.2 Frecuencia
 
-## 8. Mecanismo de distribución
+Variable (semanal, quincenal o mensual)
 
-### 8.1 Naturaleza de la distribución
-El protocolo podrá realizar distribuciones periódicas de sats a participantes definidos por el equipo coordinador o por futuros mecanismos de gobernanza.
+8.3 Monto
 
-### 8.2 Frecuencia
-La frecuencia de distribución podrá ser semanal, quincenal o mensual, según disponibilidad operativa y financiera.
+Variable según etapa y fondos disponibles
 
-### 8.3 Monto
-El monto distribuido podrá variar según:
+8.4 Modelos posibles
+no condicionada
+parcialmente condicionada
+basada en participación
+experimental
+9. Banco Descentralizado Satoshilemu
 
-- disponibilidad de fondos
-- número de participantes
-- etapa del piloto
-- objetivos específicos del programa vigente
+El protocolo podrá operar mediante una infraestructura denominada Banco Descentralizado Satoshilemu.
 
-### 8.4 Condicionalidad
-La distribución podrá adoptar uno de estos modelos:
+Este modelo:
 
-- no condicionada
-- condicionada parcialmente a actividades comunitarias
-- condicionada a tareas de beneficio local
-- condicionada a procesos formativos básicos
+facilita el onboarding de nuevos usuarios
+permite pagos simples dentro de la comunidad
+reduce fricción inicial
+actúa como sistema de transición hacia la autocustodia
 
-La versión activa del modelo deberá dejarse por escrito en los documentos operativos complementarios.
+No reemplaza el principio de autocustodia, sino que lo facilita progresivamente.
 
-### 8.5 Criterios de elegibilidad
-Los criterios podrán incluir:
+10. Adopción de primera línea
 
-- residencia o vínculo efectivo con el territorio
-- disposición a aprender uso básico de Bitcoin
-- compromiso mínimo con la comunidad
-- participación en actividades
-- criterios sociales, educativos o estratégicos definidos por la coordinación
+La expansión del sistema se basa en adopción directa en la vida cotidiana.
 
-## 9. Incorporación de participantes
+Esto implica:
 
-### 9.1 Ingreso
-Todo participante deberá pasar por un proceso de incorporación que podrá incluir:
+educación persona a persona
+incorporación de comercios locales
+uso real en transacciones diarias
 
-- formulario inicial
-- entrevista o validación básica
-- instalación de billetera
-- capacitación mínima
-- aceptación de reglas básicas del programa
+Se prioriza la adopción práctica por sobre métricas superficiales.
 
-### 9.2 Permanencia
-La permanencia en el sistema dependerá de criterios razonables, tales como:
+11. Incorporación de participantes
 
-- actividad mínima
-- conducta compatible con la comunidad
-- uso funcional de la billetera
-- respuesta a comunicaciones esenciales
-- cumplimiento de requisitos operativos mínimos
+El ingreso podrá incluir:
 
-### 9.3 Suspensión o salida
-Un participante podrá ser suspendido o removido por:
+formulario
+validación básica
+onboarding
+instalación de billetera
+aceptación de reglas
+12. Incorporación de comercios
 
-- fraude
-- abuso del sistema
-- suplantación
-- conducta dañina reiterada
-- inactividad prolongada sin justificación
-- incumplimiento grave de reglas básicas
+Requisitos mínimos:
 
-## 10. Incorporación de comercios
+aceptar pagos en Bitcoin
+contar con herramienta de cobro
+recibir capacitación básica
+13. Custodia y seguridad
+13.1 Principio
 
-### 10.1 Requisitos mínimos
-Para adherirse, un comercio deberá:
+Transición progresiva hacia autocustodia
 
-- aceptar pagos en Bitcoin
-- contar con un dispositivo o medio funcional de cobro
-- participar en una inducción básica
-- comprometerse a mantener operativa la aceptación de pagos
+13.2 Etapas
+custodia coordinada
+soluciones simples
+modelos híbridos
+autocustodia plena
+14. Transparencia
 
-### 10.2 Criterios de priorización
-Se priorizarán comercios que:
+El sistema deberá mantener:
 
-- tengan presencia territorial real
-- atiendan necesidades cotidianas
-- muestren disposición a sostener la aceptación en el tiempo
-- fortalezcan la utilidad práctica del circuito
+registros básicos de operación
+métricas agregadas
+trazabilidad razonable
+15. Gobernanza
 
-### 10.3 Baja de comercios
-Un comercio podrá ser dado de baja si:
+El protocolo evoluciona desde:
 
-- deja de aceptar pagos de forma reiterada
-- presenta información engañosa
-- afecta gravemente la confianza del circuito
-- cesa su operación
+coordinación centralizada
+coordinación distribuida
+gobernanza comunitaria
+16. Satoshilemu Improvement Proposals (SIP)
 
-## 11. Custodia y seguridad
+El protocolo podrá evolucionar mediante propuestas abiertas denominadas SIP.
 
-### 11.1 Principio general
-El protocolo promoverá progresivamente la autocustodia individual, sin exigirla de manera inmediata cuando ello dificulte la adopción inicial.
+Estas permitirán:
 
-### 11.2 Etapas posibles
-La operación podrá combinar temporalmente:
+proponer mejoras
+definir infraestructura
+ajustar procesos
+documentar decisiones
 
-- soluciones de custodia coordinada
-- billeteras de uso simple
-- modelos híbridos de transición
-- progresión hacia mayor autocustodia
+Las SIP deberán:
 
-### 11.3 Fondo operativo
-Los fondos de distribución y operación deberán mantenerse bajo estándares razonables de seguridad, incluyendo separación de funciones cuando sea posible.
+publicarse en el repositorio
+ser discutidas abiertamente
+quedar registradas
+17. Métricas
 
-### 11.4 Controles recomendados
-Se recomiendan, según madurez operativa:
+El sistema podrá medirse mediante:
 
-- segregación de accesos
-- registro de operaciones críticas
-- respaldos
-- revisión periódica de permisos
-- múltiples responsables para acciones sensibles
-- límites operativos por cuenta o flujo
+participantes activos
+comercios adheridos
+volumen circulado
+frecuencia de uso
+retención
+18. Riesgos
+baja adopción
+salida de fondos del circuito
+centralización operativa
+fricción tecnológica
+financiamiento insuficiente
+19. Evolución del protocolo
 
-## 12. Transparencia y registros
+El protocolo es experimental y evolutivo.
 
-### 12.1 Transparencia mínima
-El protocolo deberá mantener un nivel de transparencia suficiente para sostener confianza comunitaria sin comprometer datos sensibles.
+Podrá modificarse mediante nuevas versiones documentadas.
 
-### 12.2 Datos a registrar
-Podrán registrarse, entre otros:
+20. Licencia
 
-- cantidad de participantes activos
-- cantidad de comercios adheridos
-- montos distribuidos
-- frecuencia de uso
-- incidencias operativas
-- aprendizajes de implementación
-
-### 12.3 Protección de datos
-Los datos personales deberán recolectarse bajo criterio de minimización y usarse solo para fines operativos legítimos del protocolo.
-
-## 13. Gobernanza
-
-### 13.1 Etapa actual
-En su fase inicial, el protocolo opera bajo coordinación del equipo impulsor.
-
-### 13.2 Evolución esperada
-Con la madurez del sistema, podrán incorporarse mecanismos graduales de gobernanza comunitaria para decisiones tales como:
-
-- criterios de expansión
-- prioridades de distribución
-- incorporación de nuevos programas
-- revisión de reglas operativas
-
-### 13.3 Límites de gobernanza
-No podrán aprobarse cambios que contradigan los principios fundamentales del protocolo sin un proceso formal de revisión de especificaciones.
-
-## 14. Métricas de evaluación
-
-El protocolo podrá evaluarse con métricas como:
-
-- participantes activos por período
-- comercios operativos aceptando Bitcoin
-- volumen total circulado
-- recurrencia de uso por participante
-- retención de comercios
-- porcentaje de fondos recirculados localmente
-- avance en aprendizaje y autonomía de uso
-
-## 15. Riesgos reconocidos
-
-El protocolo reconoce los siguientes riesgos:
-
-- baja adopción sostenida
-- salida rápida de fondos fuera del circuito local
-- dependencia excesiva de un pequeño equipo coordinador
-- problemas de custodia o seguridad
-- fricción tecnológica para usuarios nuevos
-- financiamiento insuficiente
-- percepción errónea de gratuidad sin compromiso comunitario
-- riesgos regulatorios o tributarios
-
-## 16. Evolución de la especificación
-
-Esta especificación podrá ser modificada mediante nuevas versiones.
-
-Cada nueva versión deberá:
-- indicar número de versión
-- describir cambios relevantes
-- mantener trazabilidad de criterios modificados
-
-## 17. Licencia
-
-Este protocolo y su implementación de referencia se distribuyen bajo licencia GNU GPL v3, salvo que ciertos contenidos complementarios indiquen otra licencia compatible de forma explícita.
+Este protocolo se distribuye bajo licencia GNU GPL v3.
