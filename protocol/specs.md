@@ -1,4 +1,4 @@
-# Satoshilemu Protocol Specification
+Satoshilemu Protocol Specification
 
 Versión: 0.2
 Estado: Draft
@@ -34,7 +34,7 @@ Movimiento recurrente de sats entre participantes y comercios dentro del territo
 
 2.6 Infraestructura
 
-Conjunto de herramientas técnicas utilizadas por el protocolo (billeteras, nodos, procesadores de pago, etc.).
+Conjunto de herramientas técnicas utilizadas por el protocolo (billeteras, nodos, procesadores de pago, entre otros).
 
 3. Principios del protocolo
 
@@ -102,7 +102,7 @@ Aportan recursos para sostener el sistema sin comprometer sus principios.
 7. Unidad monetaria y red
 7.1 Unidad
 
-Bitcoin (preferentemente en satoshis)
+Bitcoin, expresado preferentemente en satoshis
 
 7.2 Red principal
 
@@ -115,7 +115,7 @@ Bitcoin on-chain
 8. Mecanismo de distribución
 8.1 Naturaleza
 
-Distribución periódica de sats a participantes.
+Distribución periódica de sats a participantes definidos.
 
 8.2 Frecuencia
 
@@ -123,7 +123,7 @@ Variable (semanal, quincenal o mensual)
 
 8.3 Monto
 
-Variable según etapa y fondos disponibles
+Variable según etapa del protocolo y disponibilidad de fondos
 
 8.4 Modelos posibles
 no condicionada
@@ -163,22 +163,22 @@ formulario
 validación básica
 onboarding
 instalación de billetera
-aceptación de reglas
+aceptación de reglas del sistema
 12. Incorporación de comercios
 
 Requisitos mínimos:
 
 aceptar pagos en Bitcoin
-contar con herramienta de cobro
+contar con un medio funcional de cobro
 recibir capacitación básica
 13. Custodia y seguridad
 13.1 Principio
 
 Transición progresiva hacia autocustodia
 
-13.2 Etapas
+13.2 Etapas posibles
 custodia coordinada
-soluciones simples
+soluciones de uso simple
 modelos híbridos
 autocustodia plena
 14. Transparencia
@@ -213,7 +213,7 @@ ser discutidas abiertamente
 quedar registradas
 17. Métricas
 
-El sistema podrá medirse mediante:
+El sistema podrá evaluarse mediante:
 
 participantes activos
 comercios adheridos
@@ -221,8 +221,11 @@ volumen circulado
 frecuencia de uso
 retención
 18. Riesgos
+
+El protocolo reconoce riesgos como:
+
 baja adopción
-salida de fondos del circuito
+salida de fondos del circuito local
 centralización operativa
 fricción tecnológica
 financiamiento insuficiente
